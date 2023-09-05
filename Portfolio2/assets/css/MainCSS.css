@@ -601,7 +601,6 @@ section.whats-trending .right-image::after {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
-  background: url(../images/whats-trending-right-image.png);
   content: '';
 }
 

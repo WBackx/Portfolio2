@@ -6,7 +6,6 @@
 </head>
 
 <body>
-    <center>
         <?php
 
 $servername = "localhost";
@@ -33,6 +32,7 @@ try {
         $sql = "INSERT INTO Email_info VALUES ('$first_name',
             '$last_name','$email','$subject','$message')";
 
+        echo (  "SQL");
 
         // Check if the query is successful
         if(mysqli_query($conn, $sql)){
@@ -50,7 +50,7 @@ try {
         // Close connection
         mysqli_close($conn);
         ?>
-    </center>
+    
 </body>
 
 </html>

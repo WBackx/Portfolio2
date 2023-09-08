@@ -26,8 +26,8 @@ try {
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Taking all 5 values from the form data(input)
-    $first_name = $_POST['first-name'];
-    $last_name = $_POST['last-name'];
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];

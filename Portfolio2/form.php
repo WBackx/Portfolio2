@@ -32,7 +32,7 @@ try {
         $sql = "INSERT INTO Email_info VALUES ('$first_name',
             '$last_name','$email','$subject','$message')";
 
-        echo (  "SQL");
+        echo (  $first_name);
 
         // Check if the query is successful
         if(mysqli_query($conn, $sql)){

@@ -31,8 +31,10 @@ try {
         // We are going to insert the data into our sampleDB table
         $sql = "INSERT INTO Email_info VALUES ('$first_name',
             '$last_name','$email','$subject','$message')";
-
+        
         echo (  $first_name);
+        echo ( $last_name);
+        echo ($email);
 
         // Check if the query is successful
         if(mysqli_query($conn, $sql)){

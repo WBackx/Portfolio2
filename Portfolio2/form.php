@@ -2,6 +2,7 @@
 <html>
 
 <head>
+<meta http-equiv="refresh" content="0;url=https://88680.stu.sd-lab.nl/Portfolio2/contact.html" />
     <title>Insert Page page</title>
 </head>
 

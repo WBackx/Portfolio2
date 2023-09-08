@@ -30,8 +30,9 @@ try {
         $message = $_REQUEST['message'];
 
         // We are going to insert the data into our sampleDB table
-        $sql = "INSERT INTO Portfolio_Wb VALUES ('$first_name',
+        $sql = "INSERT INTO Email_info VALUES ('$first_name',
             '$last_name','$email','$subject','$message')";
+
 
         // Check if the query is successful
         if(mysqli_query($conn, $sql)){

@@ -12,6 +12,7 @@
 
     $con = mysqli_connect("localhost", "root", "p%9Gfa811", "Portfolio_Wouter");
 
+    echo ($con);
         // Taking all 5 values from the form data(input)
         $first_name = $_REQUEST['first-name'];
         $last_name = $_REQUEST['last-name'];
